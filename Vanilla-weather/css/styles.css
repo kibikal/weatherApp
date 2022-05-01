@@ -35,8 +35,8 @@ main{
 }
 
 
-@media(max-width:1020px){
+@media(max-width:800px){
     .container{
-        width: 80%;
+        width: 100%;
     }
 }
