@@ -12,7 +12,6 @@ main{
     width: 40%;
     margin: 0 auto;
     min-height: 500px;
-    
     align-content: center;
 }
 .heading{
@@ -32,6 +31,9 @@ main{
 .notification{
     font-size: 1.2rem;
     font-weight: 100;
+}
+footer p{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
