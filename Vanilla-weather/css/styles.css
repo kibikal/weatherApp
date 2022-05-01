@@ -42,4 +42,7 @@ text-align: center;
     .container{
         width: 100%;
     }
+.location{
+        padding-bottom: 30px;
+}
 }
