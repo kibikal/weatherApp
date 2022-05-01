@@ -42,7 +42,7 @@ window.addEventListener("load", () => {
                     notification.innerHTML =init+desRem;
                 })
         }, (Error)=>{
- notification.innerHTML="Location access denied."
+ notification.innerHTML="<p style = 'color: red'>Location access denied</p>."
         })
     }
 })
