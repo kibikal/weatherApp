@@ -1,0 +1,56 @@
+body{
+    background-color: #f7fd52;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    text-align: center;
+    
+}
+.container{
+    background-color: rgb(213, 191, 162);
+    width: 40%;
+    margin: 0 auto;
+    min-height: 500px;
+    
+    align-content: center;
+}
+.heading{
+    padding: 20px 0;
+}
+.heading h1{
+    color: #3b0fa1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.temp-value{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.weather-icon img{
+    width: 150px;
+}
+.notification{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: cursive;
+}
+.location{
+    background-color: #3b0fa1;
+    color: #fff;
+    padding: 10px 0;
+}
+footer p{
+    color: #555;
+    font-family: cursive;
+}
+
+
+@media(max-width:1020px){
+    .container{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    div h2{
+        font-size: 1rem;
+    }
+}
